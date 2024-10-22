@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/pa-faiz/manifest -b vauxite
+$ repo init -u https://github.com/pa-jprim/manifest -b vauxite
 ```
 
 ### Downloading the source tree ###

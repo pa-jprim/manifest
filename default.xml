@@ -56,9 +56,14 @@
            fetch="https://git.keksla.wtf/pa-fazil"
            revision="vauxite" />
 
+  <remote  name="jprim"
+           fetch="https://github.com/pa-jprim"
+           revision="vauxite" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="pa-faiz.xml"/>
+  <include name="pa-jprim.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
