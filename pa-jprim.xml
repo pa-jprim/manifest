@@ -40,6 +40,14 @@
   <remove-project name="android_system_sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="jprim" />
 
+  <!-- Tools (AOSPA) -->
+  <remove-project name="android_tools_extract-utils" />
+  <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
+
+  <!-- Vendor (AOSPA) -->
+  <remove-project name="proprietary_vendor_qcom_common" />
+  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
+
   <!-- Vendor -->
   <remove-project name="android_vendor_aospa" />
   <project path="vendor/aospa" name="android_vendor_aospa" remote="jprim" >
