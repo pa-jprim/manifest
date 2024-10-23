@@ -22,7 +22,7 @@
 
   <!-- AOSPA -->
   <remote  name="aospa"
-           fetch=".."
+           fetch="ssh://git@github.com/"
            review="gerrit.aospa.co"
            revision="vauxite"/>
 
