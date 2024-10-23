@@ -72,7 +72,7 @@
 
   <!-- Signatures -->
   <remove-project name="pa-faiz/Signing_keys" />
-  <project path="vendor/aospa/signing/keys" name="Jprimero15/priv_sign_keys" remote="github-ssh" revision="master" />
+  <!--<project path="vendor/aospa/signing/keys" name="Jprimero15/priv_sign_keys" remote="github-ssh" revision="master" />-->
 
   <!-- System -->
   <remove-project name="platform/system/memory/lmkd" />
