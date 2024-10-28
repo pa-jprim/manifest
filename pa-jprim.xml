@@ -35,7 +35,6 @@
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="github" revision="lineage-22.0" />
   
   <!-- Camera -->
-  <remove-project name="LineageOS/android_packages_apps_Aperture" />
   <project path="external/Camera" name="MI439-CLO/android_packages_apps_GrapheneCam" remote="github" clone-depth="1" revision="15" />
  
   <!-- clocks -->
