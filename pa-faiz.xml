@@ -124,6 +124,12 @@
   <remove-project name="AOSPA/android_tools_extract-utils" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="faiz" />
 
+  <!-- For ASB Patch -->
+  <remove-project name="platform/external/skia" />
+  <project path="external/skia" name="android_external_skia" remote="faiz" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="faiz" />
+
   <!-- Vendor (pa-faiz) -->
   <remove-project name="AOSPA/android_vendor_aospa" />
   <project path="vendor/aospa" name="android_vendor_aospa" remote="faiz" />
